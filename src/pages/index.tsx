@@ -6,8 +6,8 @@ import PestTitle from "@/components/PestTitle.tsx/PestTitle";
 
 export default function Home() {
   return (
-    <main className="bg-white h-full w-screen flex flex-col items-center justify-center text-black lowercase mb-96">
-      <section className="flex flex-col justify-center items-center h-screen mb-16">
+    <main className="bg-white h-full w-screen flex flex-col items-center justify-center text-black lowercase mb-96 px-56">
+      <section className="flex flex-col justify-center items-center h-screen">
         <PestTitle />
         <ContactMe />
       </section>
