@@ -11,16 +11,17 @@ export const jobs: IJob[] = [
   {
     employer: "CERUSNodes.io",
     title: "Web3 Frontend",
-    subtitle: "& smart-contracts",
+    subtitle: "& smart contracts",
     description:
-      "Hired to write the protocol smart-contracts, I stepped up to take over frontend/UI/UX when the developer and designer left.",
+      "Hired to write the protocol smart contracts, I stepped up to take over frontend/UI/UX when the developer and designer left.",
     skills: ["react", "next.js", "wagmi.sh", "ethers", "rainbow kit", "figma", "solidity", "hardhat", "mocha", "ipfs", "nft.storage"],
     link: "https://app.cerusnodes.io",
   },
   {
     employer: "BoltDollar.finance",
     title: "Web3 Frontend",
-    description: "Saw the code of the old app and decided to volunteer to write a new app for the upcoming smart-vaults to help the project.",
+    description:
+      "Saw the code of the old app and decided to volunteer to write a new app for the upcoming smart-vaults to help the project.",
     skills: ["react", "next.js", "wagmi.sh", "ethers", "rainbow kit", "figma"],
     link: "https://vaults.boltdollar.finance/",
   },
@@ -43,7 +44,7 @@ export const jobs: IJob[] = [
       "layer zero",
       "erc20",
       "erc721",
-      "..."
+      "...",
     ],
     link: "",
   },
