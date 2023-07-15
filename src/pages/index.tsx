@@ -12,7 +12,7 @@ export default function Home() {
         <PestTitle />
         <ContactMe />
       </section>
-      <section className="flex flex-col justify-center items-center h-screen gap-8">
+      <section className="flex flex-col justify-center items-center h-auto mb-96">
         <About />
       </section>
       <section className="flex flex-col gap-16 justify-center items-center h-screen ">
