@@ -4,6 +4,7 @@ import HumanLanguages from "@/components/HumanLanguages/HumanLanguages";
 import ContactMe from "@/components/ContactMe/ContactMe";
 import PestTitle from "@/components/PestTitle.tsx/PestTitle";
 import About from "@/components/About/About";
+import Projects from "@/components/Projects/Projects";
 
 export default function Home() {
   return (
@@ -21,6 +22,9 @@ export default function Home() {
       </section>
       <section className="mt-32">
         <Jobs />
+      </section>
+      <section className="flex flex-col gap-16 justify-center items-center h-screen ">
+        <Projects />
       </section>
     </main>
   );
