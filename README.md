@@ -1,3 +1,2 @@
-# README
-
-Note that the yarn lock file is for github pages to work with pnpm.
+# Pest
+My web3 dev resume. always under construction
