@@ -1,4 +1,7 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# hidden elements
+*Email.tsx
+*Telephone.tsx
 
 # dependencies
 /node_modules

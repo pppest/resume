@@ -3,9 +3,9 @@ import Project from "./Project";
 
 function Projects() {
   return (
-    <div id="skills" className="flex flex-col gap-8 justify-center items-center w-[80vw] container">
-      <h1 className="text-6xl font-display normal-case">Projects</h1>
-      <div className="flex flex-wrap gap-4 justify-center items-center">
+    <div id="projects" className="flex flex-col  justify-center items-start w-[80vw] container">
+      <h1 className="text-2xl font-display normal-case">Projects</h1>
+      <div className="flex flex-wrap gap-1 justify-center items-start">
         {projects.map((item, index) => {
           return <Project key={item.name} project={item} />;
         })}

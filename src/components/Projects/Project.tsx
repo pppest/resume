@@ -8,16 +8,15 @@ interface Props {
 
 function Project({ project }: Props) {
   return (
-    <div className="flex flex-col space-y-2 items-center justify-center  w-[80vw] normal-case">
-      <h2 className="font-display text-xl md:text-2xl lg:text-4xl text-black px-8 py-4">{project.name}</h2>
-      {/* <Image src={project.image} alt={project.name} width={200} height={300} /> */}
-      <div className="font-primaryFont text-black text-md md:text-lg lg:text-xl text-left w-[40vw]">{project.description}</div>
-      <div className="flex  gap-8">
-        <Link className="font-primaryFont text-black text-md md:text-lg lg:text-xl" href={project.link} target="_blank">
+    <div className="flex flex-col  items-start justify-center w-[80vw] mt-4 normal-case">
+      <h2 className="font-display text-xl text-black">{project.name}</h2>
+      <p className="font-primaryFont text-black text-lg text-left">{project.description}</p>
+      <div className="flex gap-8 pt-8">
+        <Link className="font-primaryFont text-black text-md " href={project.link} target="_blank">
           <button className="border-2 border-black font-display  px-4 py-2">github repo</button>
         </Link>
         <Link
-          className="font-primaryFont text-black text-md md:text-lg lg:text-xl"
+          className="font-primaryFont text-black text-md "
           href={project.videoLink ? project.videoLink : ""}
           target="_blank"
         >

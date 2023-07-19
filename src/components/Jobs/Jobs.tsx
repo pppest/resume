@@ -3,9 +3,9 @@ import Job from "./Job";
 
 export default function Resume() {
   return (
-    <div className="flex flex-col gap-8 justify-center items-center font-primaryFont container">
-      <h1 className="text-6xl font-display normal-case">I worked</h1>
-      <div className="flex flex-col gap-12">
+    <div id="jobs" className="flex flex-col justify-center items-start w-[80vw] gap-1">
+      <h1 className="text-2xl font-display normal-case">Work</h1>
+      <div className="flex flex-col gap-16">
         {jobs.map((job) => {
           return <Job key={job.title} job={job} />;
         })}

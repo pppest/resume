@@ -4,7 +4,7 @@ interface Props {
 function Skill({ skill }: Props) {
   return (
     <div>
-      <div className="font-primaryFont text-black text-xl md:text-2xl lg:text-4xl h-8">{skill}</div>
+      <div className="font-primaryFont text-black text-lg h-8 normal-case">{skill}</div>
     </div>
   );
 }
