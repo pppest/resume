@@ -1,6 +1,6 @@
-import Email from "./Email";
+// import Email from "./Email";
 import Telegram from "./Telegram";
-import Telephone from "./Telephone";
+// import Telephone from "./Telephone";
 
 function ContactMe() {
   return (
